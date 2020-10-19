@@ -31,7 +31,7 @@ sha256: c4f2028b411e1e6ace748eaea8fa7cdd01ce1eb7a8b9fac0a0b204d028b44ad8
 > [MySQL8.0](https://dev.mysql.com/downloads/mysql/)
 
 ## Setting
-> Apache2.4 - (1)
+> **Apache2.4 - (1)**
 
 1. 설치한 Apache2.4의 압축을 해제 후 내부에 `Apache2.4 폴더`만 원하는 위치로 이동합니다.<br>
 ***(recommended directory path: C:\Apache2.4)***
@@ -46,7 +46,7 @@ localhost
 - 위 처럼 원하는 도메인으로 수정
 ```
 
-> PHP7
+> **PHP7**
 
 1. 설치한 PHP7의 압축을 해제 후 파일 이름을 php로 변경한 후 원하는 위치로 이동합니다.<br>
 ***(recommended directory path: C:\php)***
@@ -67,7 +67,7 @@ extension=pdo_mysql
 - 위에 있는 두개만 맨 앞에 세미콜론을 제거합니다.
 ```
 
-> Apache2.4 - (2)
+> **Apache2.4 - (2)**
 
 1. `C:/Apache24/conf/httpd.conf`을 열어서 맨밑으로 내려가 **아래의 코드**를 추가합니다.
 
@@ -96,7 +96,7 @@ cd C:\Apache24\bin
 httpd -k install
 ```
 
-> MySQL8.0
+> **MySQL8.0**
 
 1. PHP의 **mysqli_connect 함수**가 지원하는 암호화 방식이랑 MySQL8.0의 암호화 방식이<br>
 다르기 때문에 MySQL8.0의 계정 암호화 방식을 **아래의 커맨드**로 수정합니다.
